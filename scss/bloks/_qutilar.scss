@@ -1,0 +1,78 @@
+.qutilar {
+  //   border: 1px solid;
+  padding: 80px 0px;
+  background: #7acad8;
+  background-image: url(./../../images/Rectangle\ 61.png);
+}
+
+.boxs {
+  width: 75%;
+  display: grid;
+  grid-template-columns: 350px 350px 260px;
+  grid-template-rows: 250px 250px;
+  gap: 40px;
+//   border: 0.5px solid;
+  margin: 0 auto;
+
+  &__boxs1 {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+
+    iframe {
+      border-radius: 10px;
+    }
+  }
+  &__boxs2 {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+    iframe {
+      border-radius: 10px;
+    }
+  }
+  &__boxs3 {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+    iframe {
+      border-radius: 10px;
+    }
+  }
+  &__boxs4 {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+    iframe {
+      border-radius: 10px;
+    }
+  }
+  &__boxs5 {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    border-radius: 10px;
+    p {
+      width: 80%;
+      text-align: center;
+      padding: 40px;
+      margin-left: 60px;
+      font-weight: 800;
+      color: #300d5b;
+    }
+
+    button {
+      width: 440px;
+      height: 50px;
+      background: #dc051f;
+      margin-left: 100px;
+      color: white;
+      border-radius: 10px;
+      border: none;
+    }
+    button:hover {
+      background: #313091;
+    }
+  }
+}

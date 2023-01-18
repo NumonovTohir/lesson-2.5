@@ -1,0 +1,69 @@
+.house {
+  width: 100%;
+  height: 750px;
+  background: #ffe9b7;
+
+  h2 {
+    font-size: 40px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0px;
+  }
+
+  .animash {
+    display: flex;
+    // align-items: center;
+    // justify-content: end;
+    position: absolute;
+    left: 65%;
+    top: 460px;
+    z-index: 0;
+  }
+  &__home {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    // border: 1px solid;
+
+    .box {
+      width: 60%;
+      // border: 1px solid;
+      // margin: 0 auto;
+
+      h3 {
+        padding: 20px 0px;
+        font-size: 30px;
+        width: 60%;
+      }
+      p {
+        padding: 10px 0px;
+        width: 80%;
+        font-size: 20px;
+      }
+
+      .bear {
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+    }
+  }
+
+  &__boxs {
+    display: grid;
+    grid-template-columns: auto auto;
+    // border: 1px solid;
+
+    .tv {
+      margin-left: 40px;
+      background: white;
+      border-radius: 10px;
+    }
+
+    h3,
+    p {
+      width: 80%;
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+}

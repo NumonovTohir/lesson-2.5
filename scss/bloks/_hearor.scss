@@ -1,0 +1,47 @@
+.hearor{
+    width: 80%;
+    height: 600px;
+    // border: 1px solid;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    &__house{
+        width: 40%;
+        
+        p{
+            width: 80%;
+            font-size: 25px;
+            padding: 40px 0px;
+        }
+        h1{
+            font-size: 50px;
+        }
+        h2{
+            padding: 40px 0px;
+            font-weight: 400;
+            color: #DC051F;
+        }
+
+        button{
+            width: 400px;
+            height: 50px;
+            background: #DC051F;
+            color: white;
+            border-radius: 10px;
+            border: none;
+        }
+        button:hover{
+            background: #313091;
+        }
+    }
+
+    &__home{
+
+        .foto{
+            width: 400px;
+            height: 400px;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.end-game {
+  background: #494949;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  color: #fff;
+  justify-content: space-around;
+  align-items: center;
+
+  &__location {
+    width: 20%;
+    // border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    .fa-location-dot {
+      font-size: 28px;
+      padding-right: 18px;
+    }
+  }
+
+  &__telephone {
+    width: 20%;
+    // border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    .fa-phone {
+      font-size: 28px;
+      padding-right: 18px;
+    }
+  }
+
+  &__button {
+    width: 20%;
+    // border: 1px solid;
+
+    button {
+      width: 100%;
+      height: 25px;
+      border-radius: 10px;
+      background: #fff;
+      border: 1px solid red;
+      font-weight: 700;
+    }
+    button:hover {
+      background: #dc051f;
+      color: #fff;
+    }
+  }
+}
